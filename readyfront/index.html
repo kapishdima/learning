@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+        <header class="header">
+            <div class="container">
+                <div class="wrapper">
+                 <div class="selectMenu_navigate flex">
+                  <div class="selectMenu flex">
+                      <img class="headerPhoto" src="img/Ellipse 3.png" alt="">
+                      <p class="personName">Kapish Dima</p>
+                      <img class="Caret_Sort" src="img/Caret Sort.png" alt="">
+                  </div>
+
+                  <div class="navigate">
+                      <ul class="navigate_list flex">
+                          <li class="navigate_links"><a href="#" class="navigate_links">Главная</a> </li>
+                          <li class="navigate_links"><a href="#" class="navigate_links">Расходы</a> </li>
+                          <li class="navigate_links"><a href="#" class="navigate_links">Доходы</a> </li>
+                          <li class="navigate_links"><a href="#" class="navigate_links">Категории</a> </li>
+                          <li class="navigate_links"><a href="#" class="navigate_links">Статистика</a> </li>
+                          <li class="navigate_links"><span class="close_navigate"><a href="" class="navigate_links">Обучение</a> 
+                          <img class="lock" src="img/lock.png" alt=""></span>  </li>
+                          <li class="navigate_links"><span class="close_navigate"><a href="" class="navigate_links">AI</a> 
+                          <img class="lock" src="img/lock.png" alt=""></span>  </li>           
+                      </ul>
+                  </div>
+
+                  <div class="modal" id="mymodal">
+                   <div class="modal_box">
+                    <form class="FormForincomeCoastFormInfo" action="">
+                      <h4 class="h4_FormForFinance">Добавление операции</h4>
+                      <div class="incomeCoastFormInfo">
+                       <p class="incomeCoastFormInfoHeader"><a class="linkIncomeCoastFormInfoHeader" href="">Доход</a></p>
+                       <p class="incomeCoastFormInfoHeader"><a class="linkIncomeCoastFormInfoHeader" href="">Расход</a></p>
+                       <p class="incomeCoastFormInfoHeader"><a class="linkIncomeCoastFormInfoHeader close" href="">Сбережение</a>  <img class="incomeCoastFormInfoHeaderLockIcon" src="img/lock.png" alt=""></p>
+                      </div>
+
+                      <div class="text_Form">
+                       <p class="parag_Form">Сумма</p>
+                       <input type="text" class="input_Form" placeholder="100"> 
+                      </div>
+
+                      <div class="text_Form">
+                       <p class="parag_Form">Категория</p>
+                       <input type="text" class="input_Form" placeholder="Выберите категорию">
+                      </div>
+
+                      <div class="text_Form">
+                       <p class="parag_Form">Описание</p>
+                       <input type="text" class="description input_Form" placeholder="Описание">
+                      </div>
+
+                      <div class="button_For_Form">
+                        <button class="button_For_Form_Functional cancel" id="close">Отменить</button>
+                        <button class="button_For_Form_Functional add">Добавить</button>
+                      </div>
+                    </form>
+                   </div>
+                  </div>
+
+                  <div class="transaction_profile flex">
+                      <ul class="transactionButton_Profile">
+                          <li><button id="open_modalBtn" class="transaction_button">Добавить транзакцию</button></li>
+                          
+                          <li class="profile"><a href="#"><img src="img/profile photo.png" alt=""></a>
+                              <ul class="drop_down_menu">
+                                  <div class="linksInsideDropMenu">
+                                      <li><a class="">Kapish Dima</a></li>
+                                      <li><a class="light_grey">test1231231@gmail.com</a></li>
+                                  </div>
+                                  <div class="linksInsideDropMenu">
+                                      <li> <div class="wrapperLinkInsideMenu"><a class="" href="#"><img class="person_icon" src="img/Person.png" alt="">Профиль</a> <img src="img/This is a text label.png" alt=""></div> </li>
+                                      <li> <div class="wrapperLinkInsideMenu"><a class="" href="#"><img class="person_icon" src="img/Archive.png" alt="">Оплата</a> <img src="img/LabelArchive.png" alt=""></div> </li>
+                                      <li> <div class="wrapperLinkInsideMenu"><a class="" href="#"><img class="person_icon" src="img/Gear.png" alt="">Настройки</a> <img src="img/LabelGear.png" alt=""></div> </li>
+                                      <li> <div class="wrapperLinkInsideMenu"><a class="" href="#"><img class="person_icon" src="img/Keyboard.png" alt="">Горячие клавиши</a> <img src="img/LabelKeyboard.png" alt=""></div> </li>
+                                  </div>
+                                  <div class="linksInsideDropMenu">
+                                      <li> <div class="wrapperLinkInsideMenu"><a class=""><img class="person_icon" src="img/Enter.png" alt="">Выйти</a> <img src="img/LabelEnter.png" alt=""></div> </li>
+                                  </div>
+                              </ul>
+                              
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </header>
+
+
+                </div>
+                
+    
+
+
+
+        <main class="main">
+            <div class="container">
+              <div class="wrapper">
+               <header class="header_main">
+                <div class="main_h1">
+                  <h1>Главная</h1>
+                </div>
+
+                <div class="donwoald_infoH1">
+                  <form name ="dateDonwoald" action="" class="main_info">
+                   <div class="date">
+                    <img src="img/Calendar.png" alt="" class="date_icon"> 
+                    <input type="text" class="date_info" placeholder="Январь 2023 - Июнь 2023" > 
+                   </div>
+                   <button class="mainDonwoald" >Скачать</button>
+                  </form>
+                </div>
+              </header>
+              </div> 
+                
+              <div class="all_info_about_money ">
+               <div class="wrapper flex">
+                <div class="all_info_about_money_wrapper">
+
+                 <div class="hader_info_about_balance">
+
+                  <div class="account_balance">
+                   <p class="txt_header">Текущий баланс</p>
+                   <p class="amount_of_money">₴100,000</p>
+                   <p class="info_about_procent">+ 20% с прошлого месяца</p>
+                  </div>
+                  <div class="account_balance ">
+                   <p class="txt_header">Текущее Расходы</p>
+                   <p class="amount_of_money">₴5,000</p>
+                   <p class="info_about_procent">- 20% с прошлого месяца</p>
+                  </div>
+                  <div class="account_balance ">
+                   <p class="txt_header">Текущие Доходы</p>
+                   <p class="amount_of_money">₴32,534</p>
+                   <p class="info_about_procent">+ 0% с прошлого месяца</p>
+                  </div>
+                  <div class="account_balance blur ">
+                   <p class="txt_header">Щось тут</p>
+                   <p class="amount_of_money">32,131</p>
+                   <p class="info_about_procent">І може тут</p>
+                  </div>
+
+                 </div>
+                 
+                 <div class="income_coastsInfo">
+                  
+                   <div class="income">
+                    <p class="incomeInfo">Расходы</p>
+                         <table>
+                          <tr>
+                              <th>Сумма</th>
+                              <th>Категория</th>
+                              <th>Описание</th>
+                              <th>Дата</th>
+                          </tr>
+                          <tr>
+                              <td>100</td>
+                              <td>Продукты</td>
+                              <td>Овощи, макароны, мясо</td>
+                              <td>21-04-2023</td>
+                          </tr>
+                          <tr>
+                              <td>231</td>
+                              <td>Покупки</td>
+                              <td>PS5</td>
+                              <td>21-04-2023</td>
+                          </tr>
+                          <tr>
+                              <td>400</td>
+                              <td>Развлечения</td>
+                              <td>Ресторан</td>
+                              <td>22-04-2023</td>
+                          </tr>
+                          <tr>
+                              <td>400</td>
+                              <td>Развлечения</td>
+                              <td>Кофе</td>
+                              <td>22-04-2023</td>
+                          </tr>
+                          <tr>
+                              <td>400</td>
+                              <td>Алкоголь</td>
+                              <td>Jameson</td>
+                              <td>22-04-2023</td>
+                          </tr>
+                      </table>    
+                   </div>
+
+
+                   <div class="coast">
+                     <div class="coast">
+                      <p class="coastInfo">Доходы</p>
+                      
+                       <table>
+                        <tr>
+                            <th>Сумма</th>
+                            <th>Категория</th>
+                            <th>Дата</th>
+                        </tr>
+                        <tr>
+                            <td>+₴ 10,000</td>
+                            <td>Зарплата</td>
+                            <td>21-04-2023</td>
+                        </tr>
+                        <tr>
+                            <td>+₴ 5,400</td>
+                            <td>Фриланс</td>
+                            <td>21-04-2023</td>
+                        </tr>
+                        <tr>
+                            <td>+₴ 2,000</td>
+                            <td>Подарок</td>
+                            <td>22-04-2023</td>
+                        </tr>
+                        <tr>
+                            <td>+₴ 6,200</td>
+                            <td>Долг</td>
+                            <td>22-04-2023</td>
+                        </tr>
+                        <tr>
+                            <td>+₴ 2,300</td>
+                            <td>Фриланс</td>
+                            <td>22-04-2023</td>
+                        </tr>
+                    </table>
+                   </div>
+                 </div>
+               </div>
+
+               
+
+              </div>
+              <div class="diagrams">
+               <p class="stats_Categories"> Статистика по категориям</p>
+               <div class="chart-container">
+                <canvas id="myChart"></canvas>
+
+               </div>
+              
+              </div>
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+              <script>
+                 const ctx = document.getElementById('myChart');
+
+                 new Chart(ctx, {
+                   type: 'doughnut',
+                   data: {
+                     labels: ['Продукты', 'Покупки', 'Развлечения'],
+                     datasets: [{
+                       label: '# of Votes',
+                       data: [3, 6, 3],
+                       backgroundColor: ['rgba(162, 233, 193, 1)', 'rgba(24, 24, 27, 1)', 'rgba(153, 199, 251, 1)'],
+                       borderWidth: 0,
+                       
+                     }]
+                     
+                   },
+                   options:{
+                    plugins: {
+                    legend: {
+                     position: 'bottom',
+                     labels: {
+                      font: {
+                      size: 12,
+                      weight: 600,
+                     },
+                     color: '#00000',
+                     }
+                     
+                    }, 
+                   },
+                   }
+                   
+                 });
+                 
+               </script>
+             </div>
+            </div>
+        </main>
+
+
+        <script defer src="js/index.js"></script>
+</body>
+</html>
